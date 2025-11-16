@@ -15,7 +15,7 @@ export default function Projects() {
 
           {/* HTAMV — Financial Forecasting */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/project-dissertation.jpg" className="rounded mb-4" />
+            <img src="/assets/project-dissertation.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">
               HTAMV — Hybrid Temporal-Attentive Multi-Asset Volatility Forecasting
             </h2>
@@ -32,7 +32,9 @@ export default function Projects() {
 
           {/* VS Medical RAG Chatbot */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/project-medical-chatbot.jpg" className="rounded mb-4" />
+            <video controls className="rounded mb-4">
+              <source src="/assets/vs meical videos.mp4" type="video/mp4" />
+            </video>
             <h2 className="text-2xl font-semibold mb-2">VS Medical RAG Chatbot</h2>
             <p className="text-sm leading-6">
               A medical-grade RAG system built using <strong>LangChain, Pinecone, and Groq</strong>.
@@ -47,7 +49,7 @@ export default function Projects() {
 
           {/* NeuroLife */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/neuro-life.jpg" className="rounded mb-4" />
+            <img src="/assets/neuro life 2.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">
               NeuroLife — Multimodal AI for Cognitive & Learning Disabilities
             </h2>
@@ -66,7 +68,7 @@ export default function Projects() {
 
           {/* WAX-AI */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/wax-ai.jpg" className="rounded mb-4" />
+            <img src="/assets/WAX5.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">WAX-AI — Interactive Museum Intelligence</h2>
             <p className="text-sm leading-6">
               WAX-AI is a museum intelligence system that uses <strong>vision AI, speech 
@@ -81,7 +83,7 @@ export default function Projects() {
 
           {/* Multimodal AI Learning Companion */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/multimodal.jpg" className="rounded mb-4" />
+            <img src="/assets/multimodal.jpg.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Multimodal AI Learning Companion</h2>
             <p className="text-sm leading-6">
               An AI system integrating <strong>voice, vision, and reasoning</strong> to deliver 
@@ -102,6 +104,21 @@ export default function Projects() {
             </p>
           </div>
 
+          {/* Real-Time IoT System for Data Collection and Automation */}
+          <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
+            <video controls className="rounded mb-4">
+              <source src="/assets/robot pic vision .mp4" type="video/mp4" />
+            </video>
+            <h2 className="text-2xl font-semibold mb-2">Real-Time IoT System for Data Collection and Automation</h2>
+            <p className="text-sm leading-6">
+              In my IoT class, I worked on a hands-on project that demonstrated the power of the Internet of Things in real-world applications. The project involved building a connected system that integrates sensors, microcontrollers, and cloud technologies to collect and process data in real-time. My role involved designing the system's architecture, selecting appropriate communication protocols, and developing the software to handle the data flow. 
+              <br /><br />
+              The system was designed to monitor environmental conditions, automate tasks, and improve efficiency in specific processes. The IoT solution enables real-time monitoring and data-driven decisions, leading to more efficient operations, cost reduction, and proactive problem-solving.
+              <br /><br />
+              This experience gave me a deeper understanding of how IoT technologies are transforming industries by providing actionable insights and automation capabilities.
+            </p>
+          </div>
+
           {/* Demo Video */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
             <video controls className="rounded mb-4">
@@ -116,7 +133,7 @@ export default function Projects() {
 
           {/* Certification */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/certificate-ai-business.jpg" className="rounded mb-4" />
+            <img src="/assets/certificiation in ai and business strategy.webp" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">
               AI & Business Strategy Certification
             </h2>
