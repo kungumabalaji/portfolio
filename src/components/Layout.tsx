@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import Sidebar from "./Sidebar";
 
 interface LayoutProps {
@@ -6,15 +6,33 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
-  return (
-    <div className="min-h-screen bg-gray-100 text-gray-900 flex flex-col md:flex-row">
-      {/* Sidebar: Will be fixed on larger screens */}
-      <Sidebar />
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-      {/* Main content: Takes full width on mobile and shifts right on larger screens */}
-      <main className="flex-1 p-4 sm:p-6 md:ml-72">
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prev) => !prev);
+  };
+
+  return (
+    <div className="flex min-h-screen bg-gray-100 text-gray-900">
+      {/* Sidebar */}
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
+
+      {/* Main content */}
+      <main
+        className={`flex-1 p-8 transition-all duration-300 ${
+          isSidebarOpen ? "ml-72" : "ml-0"
+        }`}
+      >
         {children}
       </main>
+
+      {/* Mobile Sidebar toggle button */}
+      <button
+        onClick={toggleSidebar}
+        className="fixed bottom-8 right-8 p-4 bg-primary text-white rounded-full lg:hidden"
+      >
+        ☰
+      </button>
     </div>
   );
 };
