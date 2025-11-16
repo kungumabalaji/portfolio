@@ -1,6 +1,5 @@
 import { Home, FileText, Briefcase, GraduationCap, Mail, Github, Linkedin, Phone } from "lucide-react";
 import { NavLink } from "./NavLink";
-import profilePhoto from "@/assets/profile-photo.jpeg";
 
 const Sidebar = () => {
   const navItems = [
@@ -17,7 +16,7 @@ const Sidebar = () => {
       <div className="p-8 text-center border-b border-sidebar-border">
         <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-primary/20">
           <img 
-            src={profilePhoto} 
+            src="/assets/profile.png"  // Updated path
             alt="Kunguma Balaji Nagarajan" 
             className="w-full h-full object-cover"
           />
