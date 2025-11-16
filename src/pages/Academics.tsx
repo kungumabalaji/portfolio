@@ -120,12 +120,12 @@ const Academics = () => {
                 </div>
                 <div className="border-t border-border pt-6 mt-6">
                   <h3 className="text-2xl font-bold text-primary mb-2">
-                    BCom Honours (Business Computing)
+                    BCom Honours (Distinction)
                   </h3>
-                  <p className="text-lg font-semibold mb-2">London South Bank University</p>
-                  <p className="text-muted-foreground mb-3">2019 - 2023</p>
+                  <p className="text-lg font-semibold mb-2">Jain College </p>
+                  <p className="text-muted-foreground mb-3">2020 - 2023</p>
                   <p className="text-foreground/80">
-                    Business Computing with focus on Data Analytics, AI Applications, and Enterprise Systems Integration.
+                     Specialized in finance, accounting, and business analytics. Developed strong analytical and quantitative skills, including financial modelling, market forecasting, and cost analysis. This foundation directly strengthened my later transition into AI, particularly in machine learning for finance, RAG systems for enterprise automation, and volatility prediction models.
                   </p>
                 </div>
               </div>
