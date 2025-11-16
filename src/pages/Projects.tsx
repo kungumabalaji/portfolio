@@ -150,6 +150,15 @@ export default function Projects() {
             </p>
           </div>
 
+          {/* Recommendation Letter */}
+          <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
+            <img src="/assets/recoemdentaion.webp" className="rounded mb-4" />
+            <h2 className="text-2xl font-semibold mb-2">Recommendation Letter from Syntagma Labs</h2>
+            <p className="text-sm leading-6">
+              A letter of recommendation from Polina Vertex, Co-founder of Syntagma Labs, detailing my contributions to research and development projects during my internship.
+            </p>
+          </div>
+
         </div>
       </div>
     </Layout>
