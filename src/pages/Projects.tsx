@@ -33,7 +33,7 @@ export default function Projects() {
           {/* VS Medical RAG Chatbot */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
             <video controls className="rounded mb-4">
-              <source src="/assets/vs meical videos.mp4" type="video/mp4" />
+              <source src="/assets/vs-meical-videos.mp4" type="video/mp4" />
             </video>
             <h2 className="text-2xl font-semibold mb-2">VS Medical RAG Chatbot</h2>
             <p className="text-sm leading-6">
@@ -49,7 +49,7 @@ export default function Projects() {
 
           {/* NeuroLife */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
-            <img src="/assets/neuro life 2.png" className="rounded mb-4" />
+            <img src="/assets/neuro-life-2.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">
               NeuroLife — Multimodal AI for Cognitive & Learning Disabilities
             </h2>
@@ -58,11 +58,11 @@ export default function Projects() {
               reasoning</strong> to support individuals with cognitive disabilities.
               <br /><br />
               Features:<br />
-              • Personalized learning pathways  
-              • Voice-first conversational support  
-              • Visual recognition assistance  
-              • Emotion-aware feedback  
-              • Adaptive reinforcement learning  
+              • Personalized learning pathways<br />
+              • Voice-first conversational support<br />
+              • Visual recognition assistance<br />
+              • Emotion-aware feedback<br />
+              • Adaptive reinforcement learning<br />
             </p>
           </div>
 
@@ -86,11 +86,17 @@ export default function Projects() {
             <img src="/assets/multimodal.jpg.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Multimodal AI Learning Companion</h2>
             <p className="text-sm leading-6">
-              An AI system integrating <strong>voice, vision, and reasoning</strong> to deliver 
-              real-time personalized tutoring.
+              Multimodal AI Learning Companion is an AI system that integrates <strong>voice, vision, and reasoning</strong> to provide real-time, personalized tutoring. The system supports various educational domains including STEM, language learning, and skill development.
               <br /><br />
-              Built with LLMs, CLIP-based models, and reinforcement learning, it supports 
-              STEM education, language learning, and skill development.
+              Key technologies and tools integrated in the system:
+              <ul className="list-disc pl-6">
+                <li><strong>LLMs (Large Language Models)</strong> for language processing and text generation.</li>
+                <li><strong>CLIP-based models</strong> for visual recognition and understanding.</li>
+                <li><strong>Reinforcement Learning</strong> for personalized learning pathways based on user interactions.</li>
+                <li><strong>Real-time speech processing</strong> for dynamic feedback and interaction with the user.</li>
+              </ul>
+              <br />
+              This project aims to make learning more interactive and adaptable by using multimodal approaches to education.
             </p>
           </div>
 
@@ -107,7 +113,7 @@ export default function Projects() {
           {/* Real-Time IoT System for Data Collection and Automation */}
           <div className="border rounded-xl p-6 shadow-card bg-card text-card-foreground">
             <video controls className="rounded mb-4">
-              <source src="/assets/robot pic vision .mp4" type="video/mp4" />
+              <source src="/assets/robot-pic-vision.mp4" type="video/mp4" />
             </video>
             <h2 className="text-2xl font-semibold mb-2">Real-Time IoT System for Data Collection and Automation</h2>
             <p className="text-sm leading-6">
