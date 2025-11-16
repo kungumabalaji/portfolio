@@ -21,19 +21,14 @@ export default function About() {
         {/* TECH STACK */}
         <section>
           <h2 className="text-2xl font-bold mb-6">Technology Stack</h2>
-          <div className="grid grid-cols-4 md:grid-cols-8 gap-6 bg-card text-card-foreground p-6 rounded-xl shadow-card">
-            <img src="/icons/python.png" className="h-12" />
-            <img src="/icons/cpp.png" className="h-12" />
-            <img src="/icons/pytorch.png" className="h-12" />
-            <img src="/icons/opencv.png" className="h-12" />
-            <img src="/icons/linux.png" className="h-12" />
-            <img src="/icons/docker.png" className="h-12" />
-            <img src="/icons/react.png" className="h-12" />
-            <img src="/icons/aws.png" className="h-12" />
-            <img src="/icons/langchain.png" className="h-12" />
-            <img src="/icons/tensorflow.png" className="h-12" />
-            <img src="/icons/vscode.png" className="h-12" />
-            <img src="/icons/qt.png" className="h-12" />
+
+          {/* 🔥 Replace broken icons with your single real image */}
+          <div className="bg-card p-6 rounded-xl shadow-card flex justify-center">
+            <img 
+              src="/tech-stack.webp" 
+              alt="Technology Stack" 
+              className="rounded-xl w-full md:w-3/4"
+            />
           </div>
         </section>
 
