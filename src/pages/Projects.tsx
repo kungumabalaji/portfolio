@@ -54,8 +54,8 @@ export default function Projects() {
               NeuroLife — Multimodal AI for Cognitive & Learning Disabilities
             </h2>
             <p className="text-sm leading-6">
-              NeuroLife is a multimodal AI system combining <strong>speech, vision, and 
-              reasoning</strong> to support individuals with cognitive disabilities.
+              NeuroLife is a multimodal AI system combining <strong>speech, vision, and reasoning</strong> 
+              to support individuals with cognitive disabilities.
               <br /><br />
               Features:<br />
               • Personalized learning pathways<br />
@@ -71,11 +71,10 @@ export default function Projects() {
             <img src="/assets/WAX5.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">WAX-AI — Interactive Museum Intelligence</h2>
             <p className="text-sm leading-6">
-              WAX-AI is a museum intelligence system that uses <strong>vision AI, speech 
-              modelling, and NLP</strong> to bring wax figures to life.
+              WAX-AI is a museum intelligence system that uses <strong>vision AI, speech modelling, and NLP</strong> 
+              to bring wax figures to life.
               <br /><br />
-              It identifies visitors, listens to queries, and responds with 
-              character-specific dialogue.
+              It identifies visitors, listens to queries, and responds with character-specific dialogue.
               <br /><br />
               Presented to <strong>Madame Tussauds London</strong> with excellent feedback.
             </p>
@@ -86,7 +85,9 @@ export default function Projects() {
             <img src="/assets/multimodal.jpg.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Multimodal AI Learning Companion</h2>
             <p className="text-sm leading-6">
-              Multimodal AI Learning Companion is an AI system that integrates <strong>voice, vision, and reasoning</strong> to provide real-time, personalized tutoring. The system supports various educational domains including STEM, language learning, and skill development.
+              Multimodal AI Learning Companion is an AI system that integrates <strong>voice, vision, and reasoning</strong> 
+              to provide real-time, personalized tutoring. The system supports various educational domains including STEM, 
+              language learning, and skill development.
               <br /><br />
               Key technologies and tools integrated in the system:
               <ul className="list-disc pl-6">
@@ -105,8 +106,7 @@ export default function Projects() {
             <img src="/assets/research-presentation.png" className="rounded mb-4" />
             <h2 className="text-2xl font-semibold mb-2">Research Presentation — LSBU</h2>
             <p className="text-sm leading-6">
-              Presented research on <strong>AI-driven manufacturing inspection and 
-              automation systems</strong> at London South Bank University.
+              Presented research on <strong>AI-driven manufacturing inspection and automation systems</strong> at London South Bank University.
             </p>
           </div>
 
@@ -117,9 +117,12 @@ export default function Projects() {
             </video>
             <h2 className="text-2xl font-semibold mb-2">Real-Time IoT System for Data Collection and Automation</h2>
             <p className="text-sm leading-6">
-              In my IoT class, I worked on a hands-on project that demonstrated the power of the Internet of Things in real-world applications. The project involved building a connected system that integrates sensors, microcontrollers, and cloud technologies to collect and process data in real-time. My role involved designing the system's architecture, selecting appropriate communication protocols, and developing the software to handle the data flow. 
+              In my IoT class, I worked on a hands-on project that demonstrated the power of the Internet of Things in real-world applications. 
+              The project involved building a connected system that integrates sensors, microcontrollers, and cloud technologies to collect and process data in real-time. 
+              My role involved designing the system's architecture, selecting appropriate communication protocols, and developing the software to handle the data flow. 
               <br /><br />
-              The system was designed to monitor environmental conditions, automate tasks, and improve efficiency in specific processes. The IoT solution enables real-time monitoring and data-driven decisions, leading to more efficient operations, cost reduction, and proactive problem-solving.
+              The system was designed to monitor environmental conditions, automate tasks, and improve efficiency in specific processes. 
+              The IoT solution enables real-time monitoring and data-driven decisions, leading to more efficient operations, cost reduction, and proactive problem-solving.
               <br /><br />
               This experience gave me a deeper understanding of how IoT technologies are transforming industries by providing actionable insights and automation capabilities.
             </p>
@@ -132,8 +135,7 @@ export default function Projects() {
             </video>
             <h2 className="text-2xl font-semibold mb-2">AI Systems Demo</h2>
             <p className="text-sm leading-6">
-              Demonstration of AI workflow orchestration, data pipelines, and 
-              production-ready agent behaviour.
+              Demonstration of AI workflow orchestration, data pipelines, and production-ready agent behaviour.
             </p>
           </div>
 
@@ -144,8 +146,7 @@ export default function Projects() {
               AI & Business Strategy Certification
             </h2>
             <p className="text-sm leading-6">
-              Certified in AI & Business Strategy focusing on enterprise transformation, 
-              AI-driven value creation, and future-proof decision systems.
+              Certified in AI & Business Strategy focusing on enterprise transformation, AI-driven value creation, and future-proof decision systems.
             </p>
           </div>
 
