@@ -21,7 +21,7 @@ export default function About() {
         {/* TECH STACK */}
         <section>
           <h2 className="text-2xl font-bold mb-6">Technology Stack</h2>
-          <div className="grid grid-cols-4 md:grid-cols-8 gap-6 bg-gray-900 p-6 rounded-xl shadow">
+          <div className="grid grid-cols-4 md:grid-cols-8 gap-6 bg-card text-card-foreground p-6 rounded-xl shadow-card">
             <img src="/icons/python.png" className="h-12" />
             <img src="/icons/cpp.png" className="h-12" />
             <img src="/icons/pytorch.png" className="h-12" />
@@ -43,7 +43,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold mb-2">Large Language Models & RAG</h3>
               <p>
                 Expertise in building agentic systems, retrieval pipelines, embeddings, 
@@ -52,7 +52,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold mb-2">Machine Learning & Deep Learning</h3>
               <p>
                 Designing advanced models with Transformers, LSTMs, CNNs, attention 
@@ -60,7 +60,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold mb-2">Computer Vision Systems</h3>
               <p>
                 Real-time vision systems with YOLO, OpenCV, and multimodal architectures for 
@@ -68,7 +68,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold mb-2">AI Robotics & Autonomous Agents</h3>
               <p>
                 Building hardware-integrated AI systems, sensor fusion pipelines, and 
@@ -84,8 +84,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-            {/* Dr. Ali Salimian */}
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold">
                 Dr. Ali Salimian  
                 <span className="block text-sm opacity-75">
@@ -94,13 +93,12 @@ export default function About() {
               </h3>
               <p className="text-sm mt-3">
                 “Kunguma demonstrates outstanding research maturity, academic strength, and 
-                long-term vision. His hybrid-temporal AI model for financial markets and 
-                his ongoing contributions to AI research show his exceptional potential.”
+                long-term vision. His hybrid-temporal AI model for financial markets and his 
+                ongoing contributions to AI research show exceptional potential.”
               </p>
             </div>
 
-            {/* Adam Sabri */}
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold">
                 Adam Sabri  
                 <span className="block text-sm opacity-75">
@@ -110,12 +108,11 @@ export default function About() {
               <p className="text-sm mt-3">
                 “Kunguma delivered AI-driven interactive systems that enhanced visitor 
                 experiences with real-time automation, computer vision, and voice-based 
-                intelligence. His creativity and execution exceeded expectations.”
+                intelligence.”
               </p>
             </div>
 
-            {/* Tuan */}
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold">
                 Tuan Sihan 
                 <span className="block text-sm opacity-75">
@@ -123,14 +120,12 @@ export default function About() {
                 </span>
               </h3>
               <p className="text-sm mt-3">
-                “Kunguma is a rare talent. His AI agents, automation workflows, and 
-                intelligent ML-driven systems delivered business-critical impact across 
-                the organisation. I recommend him without reservation.”
+                “Kunguma is a rare talent. His AI agents and automation workflows delivered 
+                business-critical impact across the organisation.”
               </p>
             </div>
 
-            {/* Polina */}
-            <div className="bg-gray-900 p-6 rounded-xl shadow">
+            <div className="bg-card text-card-foreground p-6 rounded-xl shadow-card">
               <h3 className="text-xl font-semibold">
                 Polina Vertex  
                 <span className="block text-sm opacity-75">
@@ -139,8 +134,8 @@ export default function About() {
               </h3>
               <p className="text-sm mt-3">
                 “He brings a rare combination of programming skill, research depth, and 
-                curiosity. His contributions to DAO analytics, blockchain intelligence, 
-                and NLP automation were highly impactful.”
+                curiosity. His contributions to blockchain analytics and NLP automation 
+                were highly impactful.”
               </p>
             </div>
 
